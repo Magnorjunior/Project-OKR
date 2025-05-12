@@ -128,14 +128,3 @@ Projeto acadêmico/profissional com foco em **Java, Spring Boot e Arquitetura Li
 
 ---
 
-## Licença
-
-Este projeto está licenciado sob os termos da licença MIT.
-
-```
-
----
-
-Se quiser, posso gerar a versão `.md` pronta para copiar ou até fazer um commit automático, se me enviar o repositório. Deseja incluir algo mais, como Swagger ou instruções de deploy?
-```
-
