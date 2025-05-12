@@ -123,7 +123,7 @@ API REST pronta para integração com frontend ou ferramentas externas.
 
 ## Autor
 
-Desenvolvido por **Rafael \[Seu Sobrenome]**
+Desenvolvido por **Magno Jr. | 10439896, Rafael, Vitor | 10438932**
 Projeto acadêmico/profissional com foco em **Java, Spring Boot e Arquitetura Limpa**.
 
 ---
