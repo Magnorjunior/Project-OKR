@@ -107,12 +107,9 @@ API REST pronta para integração com frontend ou ferramentas externas.
 
 ---
 
-## Prints do Sistema
+## Prints do Sistema como exemplo:
 
-> Adicione aqui prints de testes com Thunder Client, Swagger, ou frontend se houver:
-
-![Print do sistema rodando](![image](https://github.com/user-attachments/assets/1869ee61-6015-4be8-a43d-a3afea90ab6f)
-)
+![image](https://github.com/user-attachments/assets/1869ee61-6015-4be8-a43d-a3afea90ab6f)
 
 ---
 
