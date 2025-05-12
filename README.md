@@ -111,7 +111,8 @@ API REST pronta para integração com frontend ou ferramentas externas.
 
 > Adicione aqui prints de testes com Thunder Client, Swagger, ou frontend se houver:
 
-![Print do sistema rodando](docs/print-sistema.png)
+![Print do sistema rodando](![image](https://github.com/user-attachments/assets/1869ee61-6015-4be8-a43d-a3afea90ab6f)
+)
 
 ---
 
@@ -121,7 +122,7 @@ API REST pronta para integração com frontend ou ferramentas externas.
 
 ---
 
-## Autor
+## Autores
 
 Desenvolvido por **Magno Jr. | 10439896, Rafael, Vitor | 10438932**
 Projeto acadêmico/profissional com foco em **Java, Spring Boot e Arquitetura Limpa**.
