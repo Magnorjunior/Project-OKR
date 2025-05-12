@@ -121,7 +121,7 @@ API REST pronta para integração com frontend ou ferramentas externas.
 
 ## Autores
 
-Desenvolvido por **Magno Jr. | 10439896, Rafael, Vitor | 10438932**
+Desenvolvido por **Magno Jr. | 10439896, Rafael |10418331, Vitor | 10438932**
 Projeto acadêmico/profissional com foco em **Java, Spring Boot e Arquitetura Limpa**.
 
 ---
