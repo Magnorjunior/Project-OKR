@@ -111,6 +111,11 @@ API REST pronta para integração com frontend ou ferramentas externas.
 
 ![image](https://github.com/user-attachments/assets/1869ee61-6015-4be8-a43d-a3afea90ab6f)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![image](https://github.com/user-attachments/assets/64311173-1d0b-414a-a1ac-ac39ff6e21d2)
+
+
 ---
 
 ## Sobre OKRs
