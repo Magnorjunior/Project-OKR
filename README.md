@@ -17,8 +17,6 @@ Fornecer uma ferramenta para **registrar, monitorar e atualizar metas** de negó
 - **Lombok**
 - **Maven**
 
----
-
 ## Modelo de Entidades
 
 ```plaintext
@@ -26,6 +24,8 @@ Objective
 ├── KeyResult
 │   └── Initiative
 │       └── Task (Lista embutida)
+
+```
 
 **Funcionalidades Principais**
 CRUD completo de Objectives, Key Results e Initiatives.
@@ -42,8 +42,6 @@ API REST pronta para integração com frontend ou ferramentas externas.
 * Atualização automática da **porcentagem de conclusão** de um objetivo com base em suas metas e iniciativas.
 * Registro de **Tasks (tarefas)** dentro das Iniciativas, com possibilidade de marcar como concluída ou não.
 * API REST pronta para integração com frontend ou ferramentas externas.
-
----
 
 ## Exemplo de Cadastro via JSON
 
@@ -99,11 +97,7 @@ API REST pronta para integração com frontend ou ferramentas externas.
    spring.datasource.password=sua_senha
    ```
 
-3. Compile e rode a aplicação:
-
-   ```bash
-   mvn spring-boot:run
-   ```
+3. Compile e rode a aplicação no VS Code
 
 4. A API estará disponível em:
 
