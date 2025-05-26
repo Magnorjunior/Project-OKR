@@ -16,6 +16,7 @@ Fornecer uma ferramenta para **registrar, monitorar e atualizar metas** de negó
 - **PostgreSQL**
 - **Lombok**
 - **Maven**
+- **Next.js**
 
 ## Modelo de Entidades
 
@@ -118,9 +119,66 @@ API REST pronta para integração com frontend ou ferramentas externas.
 
 ---
 
+## Front-end com Next.js
+
+O front-end da aplicação foi desenvolvido com **Next.js**, um framework baseado em **React**, que facilita a criação de interfaces modernas, responsivas e com ótimo desempenho. Utilizamos **componentes reutilizáveis**, chamadas à API usando **Axios**, e estilização com **CSS Modules**.
+
+### Estrutura principal - Front end
+
+A tela inicial (`pages/index.js`) é o coração da aplicação. Lá, conseguimos:
+
+* Listar todos os **Objetivos**
+* Criar novos objetivos usando um formulário modal
+* Editar e excluir objetivos
+* Alterar a porcentagem de conclusão com um **slider**
+* Acessar a página de detalhes do objetivo
+
+Exemplo de estrutura:
+
+```plaintext
+pages/
+├── index.js               # Página inicial com lista de objetivos
+├── objetivos/[id].js      # Página de detalhes de um objetivo
+components/
+├── ObjectiveForm.js       # Formulário usado para criar/editar objetivos
+services/
+└── api.js                 # Funções que consomem a API Java (Spring)
+```
+
+
+Assim, o front consome diretamente os dados da API REST criada no Spring, mantendo a separação entre as camadas.
+
+---
+
+### Atualização da interface
+
+A UI é atualizada automaticamente após cada ação (criar, editar, deletar ou mudar porcentagem). Para isso, usamos:
+
+```js
+useEffect(() => {
+  fetchObjectives();
+}, []);
+```
+
+E em cada ação:
+
+```js
+await fetchObjectives();
+```
+
+Isso garante que a tela sempre mostre os dados atualizados do banco.
+
+---
+
+### Estilização
+
+Usamos **CSS Modules** para manter o escopo de estilos restrito a cada componente, evitando conflitos globais e mantendo o visual organizado e moderno.
+
+---
+
 ## Sobre OKRs
 
-**OKRs** são uma metodologia de gestão de metas baseada em **Objetivos** (qualitativos) e **Resultados-Chave** (quantitativos). Com ela, é possível alinhar metas de forma transparente e mensurável em equipes e empresas. Este sistema simula esse processo, permitindo visualizar o progresso e subdividir ações em iniciativas e tarefas.
+**OKRs** são uma metodologia de gestão de metas baseada em **Objetivos** (qualitativos / metas) e **Resultados-Chave** (quantitativos). Ela serve para tornar possível alinhar metas de forma transparente e mensurável em equipes e empresas. Este sistema simula esse processo, permitindo visualizar o progresso e subdividir ações em iniciativas e tarefas.
 
 ---
 
